@@ -22,10 +22,17 @@ const connect = function() {
   
   conn.on('connect', () => {
     conn.write("Name: TFP");
+    
   });
   
-  
+  /*conn.on('connect', () => {
+    conn.write("Move: up");
+    conn.write("Move: left");
+  });*/
 
+ 
+ 
+ 
   return conn;
 }
 console.log('Connecting ...');
