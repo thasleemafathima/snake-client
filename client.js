@@ -25,10 +25,13 @@ const connect = function() {
     
   });
   
-  /*conn.on('connect', () => {
-    conn.write("Move: up");
-    conn.write("Move: left");
-  });*/
+  //conn.on('connect', () => {
+    //conn.write("Move: w");
+    //conn.write("Move: a");
+   // conn.write("Move: s");
+    //conn.write("Move: d");
+  //})
+
   return conn;
 }
 
