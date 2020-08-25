@@ -24,6 +24,11 @@ const connect = function() {
     conn.write("Name: TFP");
     
   });
+
+  conn.on('connect', () => {
+    conn.write("Say: stay strong");
+    
+  });
   
   //conn.on('connect', () => {
     //conn.write("Move: w");

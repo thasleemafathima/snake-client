@@ -23,6 +23,14 @@ const setupInput = function(conn) {
             if (key === "s") {
               connection.write("Move: down");
               }
+              if (key === "p") {
+                connection.write("Say: EEEaaaat!");
+                }
+                if (key === "o") {
+                  connection.write("Say: grow!");
+                  }
+                  
+
         
     })
   };
